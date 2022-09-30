@@ -1,0 +1,1594 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.breadcumb-content{
+    margin-top: -8%;
+    margin-bottom: 10%;
+}
+
+.breadcumb-inner ul li a{
+    margin-left: -38px;
+}
+
+.breadcumb-inner{
+    margin-top: -15%;
+    transition: all .4s linear;
+}
+
+/* -----------------PRODUCT BAR STRATS HERE--------------- */
+
+#product-bar .links{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.548)), url(assets/images/business-team-planning-marketing-strategy.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: -10%;
+    height: 100%;
+    width: 100%;
+    /* background-attachment: fixed; */
+    padding-top: 20%;
+}
+
+
+.links ul li {
+    position: relative;
+}
+
+.links ul li a{
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.links .sub-menu-2 li a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    height: 1px;
+    width: 15px;
+    background: rgb(80, 196, 86);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.links .sub-menu-2 li:hover a::after {
+    visibility: visible;
+    position: absolute;
+    left: 8px;
+    opacity: 1;
+}
+
+.links .sub-menu-2 li:hover a {
+    padding-left: 35px;
+    color: rgb(80, 196, 86) !important;
+}
+
+.links .sub-menu-2 li:hover a i {
+    color: #7744D9 !important;
+}
+
+.links ul li:hover .sub-menu-2 {
+    top: 87px;
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.links ul li:hover .sub-menu-2 {
+    top: 87px;
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.links .sub-menu-2 li {
+    position: relative;
+    line-height: 2;
+    display: block;
+    text-align: left;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+
+/* SPREADING THE SUB-MENU-2*/
+
+
+.sub-menu-2 .drop-1{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    width: 130px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+.sub-menu-2 li:hover .drop-1{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.sub-menu-2 .drop-1 li a{
+    font-size: 12px !important;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+
+.sub-menu-2 .drop-1 li a:hover{
+    margin-left: 5px !important;
+}
+
+
+
+/* DROP OFFLINE */
+
+
+.drop-1 .drop-offline{
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+.drop-1 li:hover .drop-offline{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-1 .drop-offline li a{
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 13px;
+}
+
+
+/* drop-online */
+
+
+.drop-1 .drop-online{
+    position: absolute;
+    top: -10px;
+    left: 135px;
+    width: 155px;
+    height: 565px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-1 li:hover .drop-online{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-1 .drop-online li a{
+    font-size: 13px !important;
+    line-height: 6px !important;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* drop-kva-1 */
+
+
+.drop-online .drop-kva-1{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-1{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-1 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-2 */
+
+
+.drop-online .drop-kva-2{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-2{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-2 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-3 */
+
+
+.drop-online .drop-kva-3{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-3{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-3 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-4 */
+
+
+.drop-online .drop-kva-4{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-4{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-4 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-5 */
+
+
+.drop-online .drop-kva-5{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-5{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-5 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+
+/* drop-kva-6 */
+
+.drop-online .drop-kva-6{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+
+.drop-online li:hover .drop-kva-6{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-6 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 600 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-7 */
+
+
+.drop-online .drop-kva-7{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-7{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-7 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-8 */
+
+
+.drop-online .drop-kva-8{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-8{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-8 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-9 */
+
+
+.drop-online .drop-kva-9{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-9{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-9 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+
+/* drop-kva-10 */
+
+
+.drop-online .drop-kva-10{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-10{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-10 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-11 */
+
+
+.drop-online .drop-kva-11{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-11{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-11 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-12 */
+
+
+.drop-online .drop-kva-12{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-12{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-12 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-13 */
+
+
+.drop-online .drop-kva-13{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-13{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-13 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-14 */
+
+
+.drop-online .drop-kva-14{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-14{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-14 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-15 */
+
+
+.drop-online .drop-kva-15{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-15{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-15 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-16 */
+
+
+.drop-online .drop-kva-16{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-16{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-16 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+/* drop-kva-17 */
+
+
+.drop-online .drop-kva-17{
+    position: absolute;
+    top: -13px;
+    left: 155px;
+    width: 155px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-online li:hover .drop-kva-17{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-online .drop-kva-17 li a{
+    font-size: 12px !important;
+    line-height: 6px;
+    margin-left: 20%;
+    font-weight: 100 !important;
+    margin-left: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DROP-ACCESS */
+
+
+.drop-1 .drop-access{
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 270px;
+    height: 185px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-1 li:hover .drop-access{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-1 .drop-access li a{
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+
+.drop-1 .drop-access li a:nth-child(1){
+    margin-bottom: 8px !important;
+}
+
+
+
+/* drop-pack */
+
+
+
+.drop-access .drop-pack{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    width: 180px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-access li:hover .drop-pack{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* drop-ups */
+
+
+
+.drop-access .drop-card{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    width: 180px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-access li:hover .drop-card{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* drop-parellal */
+
+
+.drop-access .drop-parellal{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    width: 180px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-access li:hover .drop-parellal{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+
+/* drop-rail */
+
+
+
+.drop-access .drop-rail{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    width: 180px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-access li:hover .drop-rail{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+
+
+/* drop-power */
+
+
+
+.drop-access .drop-power{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    width: 180px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 5px 5px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-access li:hover .drop-power{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+/* DROP-2 */
+
+.sub-menu-2 .drop-2{
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.sub-menu-2 li:hover .drop-2{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+.sub-menu-2 .drop-2 li a{
+    font-size: 13px !important;
+    line-height: 12px;
+}
+
+.sub-menu-2 .drop-2 li a:hover{
+    margin-left: 5px !important;
+}
+
+
+/* drop-basic */
+
+
+.drop-2 .drop-basic{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-2 li:hover .drop-basic{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+.drop-2 .drop-basic li a{
+    font-size: 12px !important;
+}
+
+
+
+/* drop-metered */
+
+
+.drop-2 .drop-metered{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+.drop-2 li:hover .drop-metered{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.drop-2 .drop-metered li a{
+    font-size: 12px !important;
+}
+
+/* drop-outlet */
+
+
+.drop-2 .drop-outlet{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+.drop-2 li:hover .drop-outlet{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+.drop-2 .drop-outlet li a{
+    font-size: 12px !important;
+}
+
+
+/* drop-switched */
+
+
+.drop-2 .drop-switched{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: #fff;
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-2 li:hover .drop-switched{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+.drop-2 .drop-switched li a{
+    font-size: 12px !important;
+}
+
+
+/* DROP-3 */
+
+
+.sub-menu-2 .drop-3{
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+.sub-menu-2 li:hover .drop-3{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.sub-menu-2 .drop-3 li a{
+    line-height: 10px !important;
+    font-size: 13px !important;
+}
+
+
+.sub-menu-2 .drop-3 li a:hover{
+    margin-left: 5px !important;
+}
+
+
+/* drop-rack */
+
+
+
+.drop-3 .drop-rack{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+
+.drop-3 li:hover .drop-rack{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* Drop-acco */
+
+
+
+.drop-3 .drop-acco{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+
+.drop-3 li:hover .drop-acco{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* acco-1 */
+
+
+.drop-acco .acco-1{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+
+.drop-acco li:hover .acco-1{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* acc-2 */
+
+
+.drop-acco .acco-2{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-2{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* acc-3 */
+
+
+.drop-acco .acco-3{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+
+.drop-acco li:hover .acco-3{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* acc-4 */
+
+
+.drop-acco .acco-4{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-4{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* acco-5 */
+
+
+.drop-acco .acco-5{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-5{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+/* acc-6 */
+
+
+.drop-acco .acco-6{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+
+
+.drop-acco li:hover .acco-6{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* drop-7 */
+
+
+.drop-acco .acco-7{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-7{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* acco-8 */
+
+.drop-acco .acco-8{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-8{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* acco-9 */
+
+
+.drop-acco .acco-9{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-9{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* acco-10 */
+
+
+.drop-acco .acco-10{
+    position: absolute;
+    top: -90px;
+    left: 170px;
+    width: 165px;
+    background: rgb(250, 250, 250);
+    transition: .3s;
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.drop-acco li:hover .acco-10{
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+#product-bar .breadcumb-content .home{
+    display: none;
+}
+
+
+
+/* -----------------PRODUCT BAR ENDS HERE--------------- */
+
+
+#rai-mobile-product{
+    display: none;
+}
+
+.footer-logo{
+    width: 60%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1170px){
+    .links ul li a{
+        font-size: 11px;
+        line-height: 50px;
+    }
+
+    .sub-menu-2 .drop-1{
+        position: absolute;
+        top: 10px;
+        left: 380px;
+    }
+
+    .sub-menu-2 .drop-2{
+        position: absolute;
+        top: 10px;
+        left: 380px;
+    }
+
+    .sub-menu-2 .drop-3{
+        position: absolute;
+        top: 10px;
+        left: 380px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 992px){
+
+    #product-bar ul li{
+        display: none;
+    }
+
+    #product-bar .links{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.548)), url(assets/images/business-team-planning-marketing-strategy.jpg);
+        background-position: center ;
+        background-size: cover;
+        margin-right: -10%;
+        height: auto;
+        width: 100%;
+        background-attachment: fixed;
+    }
+
+    #product-bar h1{
+        margin-top:70px;
+        padding-bottom: 10px;
+    }
+
+    #product-bar .breadcumb-content{
+        margin-top: -17%;
+    }
+
+    #product-bar .breadcumb-content .home{
+        padding-bottom: 10px;
+        color: white;
+        display: block;
+    }
+
+    #product-bar .breadcumb-content .review{
+        display: none;
+    }
+
+    #product-bar .breadcumb-content .review li{
+        display: inline-block;
+    }
+
+    #product-bar .breadcumb-content li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 10px 0;
+    }
+
+
+    #rai-mobile-product{
+        display: block;
+    }
+
+    #rai-mobile-product .rai-list-group li{
+        line-height:40px;
+        padding: 20px 10px 0px;
+        font-size: 18px;
+        background-color: rgb(243, 243, 243);
+        border-bottom: 1px solid rgb(185, 185, 185);
+    }
+
+}
+
+
+
+
